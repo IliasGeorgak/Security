@@ -1,0 +1,12 @@
+This is a simple RSA encryption/decryption CLI tool that supports the following functions:
+	-i path Path to the input file
+	-o path Path to the output file
+	-k path Path to the key file
+	-g length Perform RSA key-pair generation given a key length “length”
+	-d Decrypt input and store results to output.
+	-e Encrypt input and store results to output.
+	-a Compare the performance of RSA encryption and decryption with three
+	different key lengths (1024, 2048, 4096 key lengths) in terms of computational time.
+	-h This help message
+
+To compile and run it use the make command and the makefile will do everything for you :)
